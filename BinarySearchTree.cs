@@ -17,7 +17,7 @@
         return node;
       }
       
-      else if (node.Value < val)
+      else if (node.Value <= val)
         node.Right = Add(node.Right, val);
 
       else if (node.Value > val)
